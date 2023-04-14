@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Swag';
+    src: url(/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+
+body{
+    margin: 0;
+    width: 1440px;
+}
+
+.page{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    height: 500px;
+    width: 330px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img img{
+    height: 300px;
+    width: 300px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 260px;
+    font-family: 'Swag';
+    text-align: center;
+}
+
+.paragraph{
+    font-weight: 400;
+    font-size: 15px;
+    color : hsl(220, 15%, 55%);
+    display: flex;
+    font-family: 'Swag';
+    width: 250px;
+    text-align: center;
+}
+
+.paragraph p {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 375px) {
+    .page{
+        justify-content: center;
+        width: 400px;
+        height: 600px;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
